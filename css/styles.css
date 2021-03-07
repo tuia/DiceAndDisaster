@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+body {
+}
+
+.main-nav {
+	margin-bottom: 0;
+	display: none;
+}
+
+.sheets-container {
+	position: relative;
+	background: url(../img/background/fantasy-nx_512.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@media (min-width: 768px) {
+	.sheets-container {
+		/*padding: 80px 0;*/
+	}
+	.carousel-control {
+		background: transparent !important;
+		/*height: calc(100% + 160px);*/
+	    /*top: -80px;*/
+	}
+}
+@media (min-width: 1024px) {
+	.sheets-container {
+		height: 100vh;
+	}
+}
+
+@media (min-width: 1400px) {
+	.container {
+		width: 1328px;
+	}
+	.sheets-container {
+		position: relative;
+	}
+}
