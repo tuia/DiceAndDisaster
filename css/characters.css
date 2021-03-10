@@ -45,6 +45,17 @@
 	padding-bottom: 40px;
 }
 
+@media (min-width: 1024px) {
+	.character-sheet-data {
+		padding: 40px;
+	}
+}
+@media (min-width: 1400px) {
+	.character-sheet-data {
+		padding: 80px;
+	}
+}
+
 
 
 
@@ -55,15 +66,18 @@
 }
 
 @media (min-width: 768px) {
+	.item .character-image-container {
+		text-align: right;
+	}
 	.item .character-image {
 		width: 100%;
 		max-height: none;
 	}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1024px) {
 	.item .character-image {
-		max-width: 35vw;
+		max-width: 30vw;
 	}
 }
 
